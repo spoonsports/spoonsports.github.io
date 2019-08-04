@@ -19,7 +19,7 @@
         "display2Size": 3,
         "display5Font": "Rubik",
         "display5Size": 1.5,
-        "display7Font": "Rubik",
+        "display7Font": "Raleway",
         "display7Size": 1,
         "display4Font": "Rubik",
         "display4Size": 1,
@@ -36,7 +36,23 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.7",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Open Sans', sans-serif",
+        "name": "Open Sans",
+        "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+      },
+      {
+        "css": "'Roboto Condensed', sans-serif",
+        "name": "Roboto Condensed",
+        "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i"
+      },
+      {
+        "css": "'Raleway', sans-serif",
+        "name": "Raleway",
+        "url": "https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      }
+    ],
     "siteUrl": "http://oficinapitstop.com",
     "sitemapSwitcherAuto": "on",
     "gdpr": "Ao continuar concorda com os nossos <a href='terms.html'>Termos de Serviço</a> e <a href='policy.html'>Política de Privacidade</a>.",
@@ -44,7 +60,7 @@
     "noImageResize": "",
     "sitemapSwitcher": "on",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-145115930-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-145115930-1');\r\n</script>\r\n",
-    "uniqCompNum": 30,
+    "uniqCompNum": 29,
     "versionPublish": "4.10.7",
     "screenshot": "screenshot.png"
   },
@@ -52,7 +68,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Pit Stop",
+        "title": "Oficina Pit Stop",
         "meta_descr": "A sua oficina de confiança em Vila Nova de Gaia.",
         "header_custom": "",
         "footer_custom": "",
